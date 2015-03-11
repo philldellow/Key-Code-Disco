@@ -1,0 +1,14 @@
+textarea {
+  text-align: center;
+  width: 90%;
+  font-size: 25px;
+  height: 200px;
+  border: none;
+  margin: 0 auto;
+  overflow: hidden;
+  outline: none;
+  box-shadow: none;
+  margin: 20px auto;
+  padding: 5px;
+  resize: none;
+}
