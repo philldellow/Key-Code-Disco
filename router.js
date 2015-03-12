@@ -61,5 +61,16 @@ $(document).on('keypress', function(e){
 	g.slash();
 	}
 
+	if (e.keyCode === 39){
+		f= new singlequote();
+		f.singlequote();
+	}
+
+	if (e.keyCode === 34){
+		f= new doublequote();
+		f.doublequote();
+	}
+
+
 
 });
