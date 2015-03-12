@@ -1,13 +1,11 @@
-$(bindKeys);
+$(document).ready(function(){
+  var spaceBarController = new SpaceBarController();
+    $(document).on('keyup', function(e){
+    if(e.keyCode === 32){
+      spaceBarController.Display();
+      console.log("a");
+    }
 
-function bindKeys(){};
-$('body').on('keyup', function(e){
+  });
 
 });
-/*function getRandomLocation(){
-  var height = $('#container').height();
-  var width = $('#container').width();
-  var left = Math.floor(Math.random() * (width - 1) + 1);
-  var top = Math.floor(Math.random() * (height - 1) + 1);
-  return {left: left, top: top}
-}*/
