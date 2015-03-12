@@ -1,3 +1,13 @@
+html {
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
 textarea {
   text-align: center;
   width: 90%;
@@ -12,3 +22,4 @@ textarea {
   padding: 5px;
   resize: none;
 }
+
