@@ -3,7 +3,7 @@ function insertAudioTagcurly() {
 };
 
 function insertMP3curly() {
-	$('audio#curly').attr('src',"./MP3s/macdonald_90bpm_loop18.mp3");
+	$('audio#curly').attr('src',"./MP3s/looperman-l-1441718-0080653-dandyrecord-strings-reggaeton.wav");
 };
 
 function playloopcurly() {
