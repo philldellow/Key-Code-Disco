@@ -7,6 +7,14 @@ body {
   width: 100%;
 }
 
+#wolo {
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 300px;
+    margin: 0 auto;
+}
 
 textarea {
   text-align: center;
@@ -14,7 +22,9 @@ textarea {
   font-size: 25px;
   height: 200px;
   border: none;
-  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   outline: none;
   box-shadow: none;

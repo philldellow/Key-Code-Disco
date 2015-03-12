@@ -4,6 +4,11 @@ function bindKeys(){};
 $(document).on('keypress', function(e){
   console.log(e.keyCode)
 
+  if (e.keyCode === 46){
+    test = new FullstopCont();
+    test.delayFlash();
+  }
+
 	if (e.keyCode === 46){
 
 	    test = new FullstopCont();
@@ -40,17 +45,8 @@ $(document).on('keypress', function(e){
 		f = new roundBracketEnd();
 		f.endloopround();
 	}
-	if (e.keyCode === 91){
-		f = new squareBracketStart();
-		f.squarestartLoop();
-	}
 
-	if (e.keyCode === 93){
-		f = new squareBracketEnd();
-		f.endloopsquare();
-	}
-
-
+>>>>>>> master
 
 });
 /*function getRandomLocation(){
