@@ -13,6 +13,8 @@ $(document).on('keypress', function(e){
   if (e.keyCode === 59){
 		v = new semiColon();
 		v.semi();
+		f = new fnendLoop();
+		f.endloopfnKey();
 	}
 
   if (e.keyCode === 123){
@@ -48,10 +50,16 @@ $(document).on('keypress', function(e){
 		f = new squareBracketEnd();
 		f.endloopsquare();
 	}
-  if(e.keyCode === 32){
-    var spaceBarController = new SpaceBarController();
-    spaceBarController.Display();
-  }
+
+	if(e.keyCode === 32){
+	var spaceBarController = new SpaceBarController();
+	spaceBarController.Display();
+	  }
+
+	if (e.keyCode === 102){
+	g = new fnKey();
+	g.fKeystartLoop();
+	}
 
 
 });
