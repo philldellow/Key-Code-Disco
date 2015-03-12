@@ -13,6 +13,8 @@ $(document).on('keypress', function(e){
 	if (e.keyCode === 59){
 		v = new semiColon();
 		v.semi();
+		g = new fnendLoop();
+		g.endloopfnKey();
 	}
 
 	if (e.keyCode === 123){
@@ -54,10 +56,6 @@ $(document).on('keypress', function(e){
 		g.fKeystartLoop();
 	}
 
-	if (e.keyCode === 110){
-		g = new fnendLoop();
-		g.endloopfnKey();
-	}
 
 });
 /*function getRandomLocation(){
