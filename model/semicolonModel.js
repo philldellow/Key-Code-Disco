@@ -10,3 +10,8 @@ function playohyeah() {
 	$('audio#ohyeah').attr('autoplay',"autoplay");
 };
 
+function cleanUpTags() {
+	setTimeout(function(){
+       $('audio#ohyeah').remove();
+    },1500);
+};
