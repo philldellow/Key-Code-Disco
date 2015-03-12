@@ -4,7 +4,6 @@ function bindKeys(){};
 $(document).on('keypress', function(e){
   console.log(e.keyCode)
   if (e.keyCode === 46){
-
     test = new FullstopCont();
     test.delayFlash();
   }
