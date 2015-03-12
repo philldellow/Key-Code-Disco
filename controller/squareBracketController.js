@@ -1,16 +1,16 @@
-function fKeyBracketStart() {
+function squareBracketStart() {
 
-	this.fKeystartLoop = function(){
-		insertAudioTagfKey();
-		insertMP3fKey();
-		playloopfKey();
+	this.squarestartLoop = function(){
+		insertAudioTagsquare();
+		insertMP3square();
+		playloopsquare();
 	};
 };
 
-function fKeyBracketEnd() {
+function squareBracketEnd() {
 	
-	this.endloopfKey = function(){
-		fKeystopLoop();
+	this.endloopsquare = function(){
+		squarestopLoop();
 	};
 
 };
