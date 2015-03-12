@@ -71,6 +71,15 @@ $(document).on('keypress', function(e){
 		f.doublequote();
 	}
 
+	 if (e.keyCode === 102){
+		f = new fnKey();
+		f.fKeystartLoop();
+	}
+
+ 
+
+
+
 
 
 });
