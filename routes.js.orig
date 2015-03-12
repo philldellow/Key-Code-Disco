@@ -40,6 +40,16 @@ $(document).on('keypress', function(e){
 		f = new roundBracketEnd();
 		f.endloopround();
 	}
+	if (e.keyCode === 91){
+		f = new squareBracketStart();
+		f.squarestartLoop();
+	}
+
+	if (e.keyCode === 93){
+		f = new squareBracketEnd();
+		f.endloopsquare();
+	}
+
 
 
 });
