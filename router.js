@@ -56,9 +56,9 @@ $(document).on('keypress', function(e){
 	spaceBarController.Display();
 	  }
 
-	if (e.keyCode === 102){
-	g = new fnKey();
-	g.fKeystartLoop();
+	if (e.keyCode === 47){
+	g = new slash();
+	g.slash();
 	}
 
 
