@@ -25,6 +25,22 @@ $(document).on('keypress', function(e){
 		d.curlystoploop();
 	}
 
+	if(e.keyCode === 13){
+		e = new enter();
+		e.ent();
+	}
+
+	if (e.keyCode === 40){
+		f = new roundBracketStart();
+		f.roundstartLoop();
+	}
+
+	if (e.keyCode === 41){
+		f = new roundBracketEnd();
+		f.endloopround();
+	}
+
+
 });
 /*function getRandomLocation(){
   var height = $('#container').height();

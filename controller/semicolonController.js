@@ -4,6 +4,6 @@ function semiColon() {
 		insertAudioTagohyeah();	
 		insertMP3ohyeah();	
 		playohyeah();
-		cleanUpTags();	
+		cleanUpTagsohyeah();	
 	}
 };

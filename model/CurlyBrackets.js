@@ -3,7 +3,7 @@ function insertAudioTagcurly() {
 };
 
 function insertMP3curly() {
-	$('audio#curly').attr('src',"./MP3s/looperman-l-0448131-0065520-megapaul-dongeled-90bpm-b.wav");
+	$('audio#curly').attr('src',"./MP3s/macdonald_90bpm_loop18.mp3");
 };
 
 function playloopcurly() {
