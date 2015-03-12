@@ -3,7 +3,7 @@ function insertAudioTagcurly() {
 };
 
 function insertMP3curly() {
-	$('audio#curly').attr('src',"./MP3s/looperman-l-1441718-0080653-dandyrecord-strings-reggaeton.wav");
+	$('audio#curly').attr('src',"./MP3s/CurleyBracketsLoop.wav");
 };
 
 function playloopcurly() {
