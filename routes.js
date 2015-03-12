@@ -2,7 +2,11 @@ $(bindKeys);
 
 function bindKeys(){};
 $('body').on('keyup', function(e){
-
+	
+	if (e.keyCode === 59)
+		{
+			semicolonController;
+		}
 });
 /*function getRandomLocation(){
   var height = $('#container').height();
