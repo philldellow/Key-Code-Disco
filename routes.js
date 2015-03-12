@@ -49,7 +49,15 @@ $(document).on('keypress', function(e){
 		f.endloopsquare();
 	}
 
+	if (e.keyCode === 102){
+		g = new fnKey();
+		g.fKeystartLoop();
+	}
 
+	if (e.keyCode === 110){
+		g = new fnendLoop();
+		g.endloopfnKey();
+	}
 
 });
 /*function getRandomLocation(){

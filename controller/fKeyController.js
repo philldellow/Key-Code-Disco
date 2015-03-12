@@ -1,4 +1,4 @@
-function fKeyBracketStart() {
+function fnKey() {
 
 	this.fKeystartLoop = function(){
 		insertAudioTagfKey();
@@ -7,9 +7,9 @@ function fKeyBracketStart() {
 	};
 };
 
-function fKeyBracketEnd() {
+function fnendLoop() {
 	
-	this.endloopfKey = function(){
+	this.endloopfnKey = function(){
 		fKeystopLoop();
 	};
 
