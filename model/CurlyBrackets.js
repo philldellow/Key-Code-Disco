@@ -1,13 +1,16 @@
-var insertAudioTag = function(){
-	$('body').append$("<audio></audio>");
+function insertAudioTagcurly() { 
+    $( "body" ).append( $( '<audio id = "curly"></audio>' ));
 };
 
-var insertMP3 = function(){
-	$('audio').append$("/MP3s/CurleyBracketsLoop.wav");
+function insertMP3curly() {
+	$('audio#curly').attr('src',"./MP3s/CurleyBracketsLoop.wav");
 };
 
-var play = $('audio').attr('autoplay','true');
+function playloopcurly() {
+	$('audio#curly').attr('autoplay',"autoplay");
+	$('audio#curly').attr('loop',"loop");
+};
 
-var repeat  = true;
-
-$(document).ready(insertAudioTag.insertMP3.play.repeat);
+function endloopcurly() {
+	$('audio#curly').remove();
+};
