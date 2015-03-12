@@ -3,7 +3,7 @@ function SpaceBarModel(){
   this.raindropSound = function(){
   return $("<audio></audio>").attr({
       'id':'raindrop',
-      'src':'./MP3s/rain-01.mp3#t=2,2.5'
+      'src':'./MP3s/rain-01.mp3#t=1,1.1'
     })
   };
 };
