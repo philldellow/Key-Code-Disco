@@ -3,13 +3,13 @@ describe('FullstopCont()', function() {
     this.fullstopCont = new FullstopCont();
   });
 
-  describe('count',function(){
+  // describe('count',function(){
 
-    it('should equal zero', function(){
-      expect(this.fullstopCont.count).toEqual(0)
-    });
+  //   it('should equal zero', function(){
+  //     expect(this.fullstopCont.count).toEqual(0)
+  //   });
 
-  });
+  // });
 
 });
 

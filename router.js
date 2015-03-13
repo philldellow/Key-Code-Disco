@@ -52,14 +52,18 @@ $(document).on('keypress', function(e){
 	}
 
 	if(e.keyCode === 32){
-	var spaceBarController = new SpaceBarController();
-	spaceBarController.Display();
+  	var spaceBarController = new SpaceBarController();
+  	spaceBarController.Display();
 	  }
 
 	if (e.keyCode === 102){
-	g = new fnKey();
-	g.fKeystartLoop();
+  	g = new fnKey();
+  	g.fKeystartLoop();
 	}
 
+  if(e.keyCode == 45) {
+    finale = new finaleController
+    finale.partyTime();
+  }
 
 });

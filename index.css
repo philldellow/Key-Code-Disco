@@ -1,6 +1,38 @@
-html {
-
+.square {
+  height: 10px;
+  width: 10px;
+  opacity: 0.5;
 }
+
+#topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 15px dashed red;
+}
+
+#topright{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 15px dashed blue;
+}
+
+#bottomleft{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 15px dashed yellow;
+}
+
+#bottomright{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 15px dashed green;
+}
+
+
 
 body {
   height: 100%;
