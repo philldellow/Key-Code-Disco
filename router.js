@@ -56,14 +56,34 @@ $(document).on('keypress', function(e){
   	spaceBarController.Display();
 	  }
 
-	if (e.keyCode === 102){
-  	g = new fnKey();
-  	g.fKeystartLoop();
-	}
 
   if(e.keyCode == 45) {
     finale = new finaleController
     finale.partyTime();
   }
+
+
+	if (e.keyCode === 47){
+	g = new slash();
+	g.slash();
+	}
+
+	if (e.keyCode === 39){
+		f= new singlequote();
+		f.singlequote();
+	}
+
+	if (e.keyCode === 34){
+		f= new doublequote();
+		f.doublequote();
+	}
+
+	 if (e.keyCode === 102){
+		f = new fnKey();
+		f.fKeystartLoop();
+	}
+
+
+
 
 });
