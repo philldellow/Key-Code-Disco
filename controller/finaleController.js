@@ -10,9 +10,16 @@ function finaleController() {
   var bottomLeftBox = new bottomLeftFinaleModel();
   var bottomRightBox = new bottomRightFinaleModel();
 
+
   var size = 10;
 
   this.partyTime = function() {
+    insertApplause();
+    insertMP3Applause();
+    playApplause();
+    cleanUpTagsApplause();
+
+
     var cycle = setInterval(function() {
 
       var newTopLeftBox = topLeftBox.generateBox(size);
