@@ -57,10 +57,10 @@ $(document).on('keypress', function(e){
 	  }
 
 
-  if(e.keyCode == 45) {
-    finale = new finaleController
-    finale.partyTime();
-  }
+	  if(e.keyCode == 45) {
+	    finale = new finaleController
+	    finale.partyTime();
+	  }
 
 
 	if (e.keyCode === 47){
