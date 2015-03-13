@@ -4,7 +4,7 @@ function dollarview() {
 
 function dollarviewClear() {
   setTimeout(function(){
-    $('body').removeAttr('Class');
+    $('.getfunky').removeAttr('Class');
   },4500);
 }
 
