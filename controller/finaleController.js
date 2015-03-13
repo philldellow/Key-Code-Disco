@@ -26,7 +26,7 @@ function finaleController() {
       bottomLeftView.addBox(newBottomLeftBox);
       bottomRightView.addBox(newBottomRightBox);
 
-      size += 5;
+      size += 15;
       stopIfDone(cycle);
     },50);
   };

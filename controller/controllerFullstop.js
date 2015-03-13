@@ -17,7 +17,7 @@ function FullstopCont() {
       insertAudioTagWolo();
       insertWoloImageTag();
       insertWoloImage();
-      insertMP3Wolo();
+      insertMP3Wolo(); 8
       playWolo();
       endWolo();
     };
