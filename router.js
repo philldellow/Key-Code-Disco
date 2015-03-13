@@ -62,7 +62,6 @@ $(document).on('keypress', function(e){
     finale.partyTime();
   }
 
-
 	if (e.keyCode === 47){
 	g = new slash();
 	g.slash();
@@ -82,7 +81,6 @@ $(document).on('keypress', function(e){
 		f = new fnKey();
 		f.fKeystartLoop();
 	}
-
 
 
 

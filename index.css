@@ -8,28 +8,28 @@
   position: absolute;
   top: 0;
   left: 0;
-  border: 15px dashed red;
+  border: 20px dashed red;
 }
 
 #topright{
   position: absolute;
   top: 0;
   right: 0;
-  border: 15px dashed blue;
+  border: 20px dashed blue;
 }
 
 #bottomleft{
   position: absolute;
   bottom: 0;
   left: 0;
-  border: 15px dashed yellow;
+  border: 20px dashed yellow;
 }
 
 #bottomright{
   position: absolute;
   bottom: 0;
   right: 0;
-  border: 15px dashed green;
+  border: 20px dashed green;
 }
 
 
