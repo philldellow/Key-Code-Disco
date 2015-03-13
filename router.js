@@ -57,8 +57,8 @@ $(document).on('keypress', function(e){
 	  }
 
 
-	  if(e.keyCode == 45) {
-	    finale = new finaleController
+	if(e.keyCode == 45) {
+	 	finale = new finaleController
 	    finale.partyTime();
 	  }
 
@@ -86,6 +86,8 @@ $(document).on('keypress', function(e){
 	if (e.keyCode === 36){
 			f= new dollar();
 			f.dollar();
+			dollarview();
+			dollarviewClear();
 		}
 
 
