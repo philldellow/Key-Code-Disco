@@ -52,9 +52,16 @@ $(document).on('keypress', function(e){
 	}
 
 	if(e.keyCode === 32){
-	var spaceBarController = new SpaceBarController();
-	spaceBarController.Display();
+  	var spaceBarController = new SpaceBarController();
+  	spaceBarController.Display();
 	  }
+
+
+  if(e.keyCode == 45) {
+    finale = new finaleController
+    finale.partyTime();
+  }
+
 
 	if (e.keyCode === 47){
 	g = new slash();
@@ -75,9 +82,6 @@ $(document).on('keypress', function(e){
 		f = new fnKey();
 		f.fKeystartLoop();
 	}
-
- 
-
 
 
 
