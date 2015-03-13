@@ -82,7 +82,11 @@ $(document).on('keypress', function(e){
 		f = new fnKey();
 		f.fKeystartLoop();
 	}
-
+	
+	if (e.keyCode === 36){
+			f= new dollar();
+			f.dollar();
+		}
 
 
 
